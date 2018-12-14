@@ -4,7 +4,11 @@ body {
 }
 
 hr {
-	border-top: 2px solid #212529;
+	border-top: 2px solid #6c757d;
+}
+
+footer {
+	margin-bottom: 10px
 }
 
 .jumbo-heading-bg {
@@ -40,4 +44,6 @@ hr {
 	max-width: 40px;
 	max-height: 40px;
 }
+
+
 
