@@ -1,6 +1,10 @@
+/****************************/
+/*		    GENERAL			*/ 
+/****************************/
 body {
 	font-family: 'Ranga', serif;
 	font-size: 1.5em;
+	overflow: scroll;
 }
 
 hr {
@@ -22,6 +26,9 @@ footer {
 	background-size: 100% 100%;
 }
 
+/****************************/
+/*		  HOME PAGE			*/
+/****************************/
 .headerName p {
 	padding-top: 16px;
 	margin-bottom: 0px;
@@ -37,13 +44,27 @@ footer {
 	margin-top: 15px
 }
 
-
-
 .icon {
 	margin-right: 10px;
 	max-width: 40px;
 	max-height: 40px;
 }
 
+
+/****************************/
+/*		CONTACT PAGE		*/ 
+/****************************/
+.contactsPicture {
+	position: inherit;
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%
+}
+
+.customContactList {
+	margin-top: 20px;
+	margin-right: 40px;
+	list-style-type: none; 
+}
 
 
