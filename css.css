@@ -56,15 +56,26 @@ footer {
 /****************************/
 .contactsPicture {
 	position: inherit;
+	float: left;	
+	margin-right: 40px;
 	max-width: 200px;
 	max-height: 200px;
 	border-radius: 50%
 }
 
 .customContactList {
+	text-align: left;
 	margin-top: 20px;
 	margin-right: 40px;
 	list-style-type: none; 
+}
+
+@media screen and (max-width: 768px) {
+	.contactsPicture {
+		float: none;
+		margin-right: 0px;
+		background-color: red;
+	}
 }
 
 
