@@ -34,6 +34,12 @@ footer {
 	margin-bottom: 0px;
 }
 
+.customContainer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .customList{
 	text-align: left;
 	padding-left: 100px;
@@ -70,11 +76,14 @@ footer {
 	list-style-type: none; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.contactsPicture {
 		float: none;
 		margin-right: 0px;
-		background-color: red;
+	}
+
+	.customContactList {
+		margin-right: 0px;
 	}
 }
 
