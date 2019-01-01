@@ -26,14 +26,13 @@ footer {
 	background-size: 100% 100%;
 }
 
-/****************************/
-/*		  HOME PAGE			*/
-/****************************/
 .headerName p {
 	padding-top: 16px;
 	margin-bottom: 0px;
 }
-
+/****************************/
+/*		  HOME PAGE			*/
+/****************************/
 .customContainer {
 	width: 100%;
 	margin-left: auto;
@@ -58,7 +57,7 @@ footer {
 
 
 /****************************/
-/*		CONTACT PAGE		*/ 
+/*		CONTACT PAGE		*/
 /****************************/
 .contactsPicture {
 	position: inherit;
@@ -76,7 +75,26 @@ footer {
 	list-style-type: none; 
 }
 
+
+
+/****************************/
+/*		  RESPONSIVE		*/
+/****************************/
+@media screen and (max-width: 360px) {
+	/*HOME PAGE*/
+	.headerName {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	/*CONTACT PAGE*/
+	.customContactList {
+		padding-left: 0px;
+	}
+}
+
 @media screen and (max-width: 767px) {
+	/*CONTACT PAGE*/
 	.contactsPicture {
 		float: none;
 		margin-right: 0px;
@@ -86,5 +104,29 @@ footer {
 		margin-right: 0px;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	/*CONTACT PAGE*/
+	.contactsPicture {
+		margin-left: 130px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	/*CONTACT PAGE*/
+	.contactsPicture {
+		margin-left: 250px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	/*CONTACT PAGE*/
+	.contactsPicture {
+		margin-left: 340px;
+	}
+}
+
+
+
 
 
