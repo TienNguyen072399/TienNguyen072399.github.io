@@ -1,76 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Tien Nguyen</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel = "stylesheet" type = "text/css" href="css.css">
-  <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
- </head>
+  <head>
+    <title>Tien Nguyen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ranga"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
- <body>
+  <body>
+    <div class="jumbotron text-center text-white jumbo-heading-bg">
+      <div>
+        <div class="row">
+          <div class="col-sm-12 headerName text-center">
+            <h1>Tien Nguyen</h1>
+            <p>Computer Science Student, Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
- 	<div class = "jumbotron text-center text-white jumbo-heading-bg">
- 		<div>
- 			<div class = "row">
- 				<div class = "col-sm-12 headerName text-center">
- 					<h1>Tien Nguyen</h1>
- 					<p>Computer Science Student, Web Developer</p>	
- 				</div>
- 			</div>
- 		</div>
- 	</div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=" #collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
- 	<nav class = "navbar navbar-expand-sm navbar-dark bg-dark"> 
- 		<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target =" #collapsibleNavbar">
-    		<span class = "navbar-toggler-icon"></span>
- 		 </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item nav-item active">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
- 		<div class = "collapse navbar-collapse justify-content-center" id = "collapsibleNavbar">
- 			<ul class = "navbar-nav">
-	 			<li class = "nav-item">
-	 				<a class = "nav-link" href="index.html">Home</a>
-	 			</li>
-	 			<li class = "nav-item nav-item active">
-	 				<a class = "nav-link" href="#">Projects</a>
-	 			</li>
-	 			<li class = "nav-item">
-	 				<a class = "nav-link" href="contacts.html">Contacts</a>
-	 			</li>
- 			</ul>
- 		</div>
- 	</nav>
-
- 	<div class = "container" style = "padding-top: 20px">
-		<div class = "container text-center	">	
-			<u><h2>Projects</h2></u>
-			<div class = row>
-				<div class = col-sm-4>
-					
-				</div>
-				<div class = col-sm-4>
-					<h3>Renaming Application</h3>
-					<img class = "img-fluid" src="Img/Rename.png">
-					<p style = "text-align:justify">
-						Written in java, this application was designed to rename multiple pictures all at once, to have the same name with consecutive numbering at the end of it. This was also, my first time creating a GUI with java.
-					</p>
-				</div>
-				<!-- <div class = col-sm-4>
+    <div class="container" style="padding-top: 20px">
+      <div class="container text-center	">
+        <u><h2>Projects</h2></u>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>LetsBrio</h3>
+            <img class="img-fluid projectImage" src="Img/Brio.png" />
+            <p style="text-align:justify">
+              A university mobile meetup app that is created using React Native
+              as the front-end and express.js/socket.io as backend. I have not
+              had any experience using these javascript libraries and frameworks
+              until I started working on this project.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Renaming Application</h3>
+            <img
+              class="img-fluid projectImage"
+              style="width: 400px"
+              src="Img/Rename.png"
+            />
+            <p style="text-align:justify">
+              Written in java, this application was designed to rename multiple
+              pictures all at once, to have the same name with consecutive
+              numbering at the end of it. This was also my first time creating a
+              GUI with java.
+            </p>
+          </div>
+          <!-- <div class = col-sm-4>
 					<h3>Project 2</h3>
 					<img class = "projectsPictures" src="Img/Rename.png">
 					<p style = "text-align:justify">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec ipsum a mi venenatis dictum id nec justo. Etiam ut nibh ultricies, pharetra libero tincidunt, rhoncus dolor.
 					</p>
 				</div> -->
-			</div>
-			<hr>
-		</div>
- 	</div>
- 	<footer class = "text-center">
-		Copyright &copy; 2018 Tien Nguyen 
-	</footer>
-</body>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <footer class="text-center">
+      Copyright &copy; 2018 Tien Nguyen
+    </footer>
+  </body>
+</html>
