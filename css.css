@@ -1,132 +1,132 @@
 /****************************/
-/*		    GENERAL			*/ 
+/*		    GENERAL			*/
 /****************************/
 body {
-	font-family: 'Ranga', serif;
-	font-size: 1.5em;
-	overflow: scroll;
+  font-family: "Ranga", serif;
+  font-size: 1.5em;
+  overflow: scroll;
 }
 
 hr {
-	border-top: 2px solid #6c757d;
+  border-top: 2px solid #6c757d;
 }
 
 footer {
-	margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .jumbo-heading-bg {
-	margin-top: -5px;
-	margin-bottom: -5px;
-	background: url('Img/background3.jpg') no-repeat center;
-	width: 100%;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  background: url("Img/background3.jpg") no-repeat center;
+  width: 100%;
 }
 
 .jumbotron {
-	background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 .headerName p {
-	padding-top: 16px;
-	margin-bottom: 0px;
+  padding-top: 16px;
+  margin-bottom: 0px;
 }
 /****************************/
 /*		  HOME PAGE			*/
 /****************************/
 .customContainer {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.customList{
-	text-align: left;
-	padding-left: 100px;
-	list-style-type: none;
+.customList {
+  text-align: left;
+  padding-left: 100px;
+  list-style-type: none;
 }
 
-.customList li{
-	margin-top: 15px
+.customList li {
+  margin-top: 15px;
 }
 
 .icon {
-	margin-right: 10px;
-	max-width: 40px;
-	max-height: 40px;
+  margin-right: 10px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
+/****************************/
+/*		PROJECTS PAGE		*/
+/****************************/
+.projectImage {
+  height: 500px;
+  width: 250px;
+}
 
 /****************************/
 /*		CONTACT PAGE		*/
 /****************************/
 .contactsPicture {
-	position: inherit;
-	float: left;	
-	margin-right: 40px;
-	max-width: 200px;
-	max-height: 200px;
-	border-radius: 50%
+  position: inherit;
+  float: left;
+  margin-right: 40px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
 }
 
 .customContactList {
-	text-align: left;
-	margin-top: 20px;
-	margin-right: 40px;
-	list-style-type: none; 
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  list-style-type: none;
 }
-
-
 
 /****************************/
 /*		  RESPONSIVE		*/
 /****************************/
 @media screen and (max-width: 360px) {
-	/*HOME PAGE*/
-	.headerName {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
+  /*HOME PAGE*/
+  .headerName {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
-	/*CONTACT PAGE*/
-	.customContactList {
-		padding-left: 0px;
-	}
+  /*CONTACT PAGE*/
+  .customContactList {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-	/*CONTACT PAGE*/
-	.contactsPicture {
-		float: none;
-		margin-right: 0px;
-	}
+  /*CONTACT PAGE*/
+  .contactsPicture {
+    float: none;
+    margin-right: 0px;
+  }
 
-	.customContactList {
-		margin-right: 0px;
-	}
+  .customContactList {
+    margin-right: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-	/*CONTACT PAGE*/
-	.contactsPicture {
-		margin-left: 130px;
-	}
+  /*CONTACT PAGE*/
+  .contactsPicture {
+    margin-left: 130px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-	/*CONTACT PAGE*/
-	.contactsPicture {
-		margin-left: 250px;
-	}
+  /*CONTACT PAGE*/
+  .contactsPicture {
+    margin-left: 250px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
-	/*CONTACT PAGE*/
-	.contactsPicture {
-		margin-left: 340px;
-	}
+  /*CONTACT PAGE*/
+  .contactsPicture {
+    margin-left: 340px;
+  }
 }
-
-
-
-
-
